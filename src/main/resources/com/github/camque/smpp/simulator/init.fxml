@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+
+<GridPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml"
+	fx:controller="com.github.camque.smpp.simulator.controllers.InitController" 
+    alignment="center" hgap="10" vgap="10">
+    
+    <padding>
+    	<Insets top="25" right="25" bottom="25" left="25"/>
+    </padding>
+    
+    <Button fx:id="configureButton" text="Configure" onAction="#switchToConfigure" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+    
+    <Button fx:id="startButton" text="Start >" onAction="#switchToConfigure" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+    
+    
+</GridPane>
